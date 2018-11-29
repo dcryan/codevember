@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "David your Hearts off",
+ "description": "An incredibly useful app so you can get your David fix for the day. Just visit Facebook.",
+  "version": "1",
+  "author": "Daniel Ryan",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "David <3 soft"
+  },
+  "content_scripts": [{
+    "css": ["main.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.facebook.com/*"]
+  }]
+}

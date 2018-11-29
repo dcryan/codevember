@@ -1,0 +1,23 @@
+body {
+  background: url('https://s.gravatar.com/avatar/7bb1b3eea5af1b2c429803cb5f6dea2f') !important;
+}
+
+
+* {
+  background: url('https://s.gravatar.com/avatar/7bb1b3eea5af1b2c429803cb5f6dea2f') !important;
+}
+
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
